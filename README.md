@@ -1,4 +1,4 @@
-# Embed fields for Revolt
+# Embed fields for revolt.py
 Please do note that **this does not use any actual embed fields**. As Revolt doesn't support having fields in embeds
 yet, we had to resort to showing the field data in the embed description, rather than in actual fields like we can
 on Discord and Guilded.
