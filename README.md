@@ -7,7 +7,7 @@ Features:
   - Please do note that **this does not use any actual embed fields**. As Revolt doesn't support having fields in embeds
 yet, we had to resort to showing the field data in the embed description, rather than in actual fields like we can
 on Discord and Guilded.
-- (WIP) Ability to use integers to set color
+- Ability to use integers to set color
 
 ## Examples
 To send an embed with a field in revolt.py:
