@@ -15,7 +15,6 @@ class Embed(revolt.SendableEmbed):
     @property
     def description(self):
         if self.fields:
-            print(type(self.raw_description))
             return (
                 (self.raw_description + '\n\n') if self.raw_description else ''
             )+ '\n\n'.join([f'**{field.name}**\n{field.value}' for field in self.fields])
@@ -33,7 +32,7 @@ class Embed(revolt.SendableEmbed):
 
         return self.raw_colour()
 
-    @description.setter
+    @colour.setter
     def colour(self, value):
         self.raw_colour = value
 
