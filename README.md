@@ -37,7 +37,14 @@ embed.add_field(name='This is another embed field!', value='Embed fields are sho
 embed.insert_field_at(1, name='This is an inserted field!', value='enjoy :)')
 ```
 
+You can also set a footer text:
+```py
+embed = revoltembed.Embed(title='Hello world!', description='This is an embed!')
+embed.set_footer(text='Made by UnifierHQ')
+```
+
 ## Limitations
-- Like we've said before, **this does NOT use actual "fields"**. All embed fields will be added to the embed
-  description for display.
+- Like we've said before, **this does NOT use actual "fields" or "footers"**. All embed fields and footers will be
+  added to the embed description to be displayed.
 - Due to this, inline fields are not possible.
+- Footers only support text, as there's no way to add inline attachments on Revolt.
