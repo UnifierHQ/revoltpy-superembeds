@@ -3,10 +3,10 @@ Superembeds is an extension of Revolt.py's embeds which aims to make using embed
 who've used embeds in discord.py and similar before).
 
 Features:
-- Makeshift embed fields
-  - Please do note that **this does not use any actual embed fields**. As Revolt doesn't support having fields in embeds
-yet, we had to resort to showing the field data in the embed description, rather than in actual fields like we can
-on Discord and Guilded.
+- Makeshift embed fields and footers
+  - Please do note that **this does not use any actual embed fields or footers**. As Revolt doesn't support having
+    fields and footers in embeds yet, we had to resort to showing them through the embed description, rather than in
+    actual fields like we can on Discord and Guilded.
 - Ability to use hex integers (e.g. `0xffb5ee`) to set color
 
 ## Examples
