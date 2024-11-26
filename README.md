@@ -1,5 +1,5 @@
-# revolt.py Superembeds
-Superembeds is an extension of revolt.py's embeds which aims to make using embeds a lot easier (especially for those
+# Revolt.py Superembeds
+Superembeds is an extension of Revolt.py's embeds which aims to make using embeds a lot easier (especially for those
 who've used embeds in discord.py and similar before).
 
 Features:
